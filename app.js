@@ -11,9 +11,9 @@ const rates = document.querySelectorAll(".number");
 const rating = document.querySelector(".rating");
 
 
-number.forEach((rate) => {
+rates.forEach((rate) => {
   rate.addEventListener("click", () => {
-    rating.innerHTML = number.innerHTML;
+    rating.innerHTML = rate.innerHTML;
   });
 });
 
